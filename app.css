@@ -1,0 +1,34 @@
+*{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+td {
+    background-color: #100157;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+td:hover {
+    background-color: #1a0779;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.info-container {
+    display: block;
+    font-size: 0.7rem;
+}
+
+#player1 {
+    margin-bottom: 50px;
+}
